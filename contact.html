@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	   <title>Study Buddy</title>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="Study Buddy">
+ <meta name="author" content="">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js"></script>
+<script src="javascript/validatename.js"></script>
+
+</head>
+<body class="body">
+<header class="mainheader">
+	<a href="index.html"><img src="images/logo.png"></a>
+	<content id="search">
+        
+        <br><br>
+		<form>
+  <input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+</form>
+	</content>
+<nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="course.html">Resources</a></li>
+      <li><a href="download.html">Upload</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="login.html">Login</a></li>
+      
+    </ul> 
+  </nav>
+</header>
+
+<br>    
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0087908301907!2d79.15765506535196!3d12.971289118393477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad479f0ccbe067%3A0xfef222e5f36ecdeb!2sVellore%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1646290788858!5m2!1sen!2sin" width="300" height="350"  frameborder="0" style="border:0;" allowfullscreen="" ></iframe>
+<h3>Contact</h3>
+<h4>Study Buddy<br>
+Lions Building, VIT vellore<br>
+Academic Building, Katpadi, India.
+
+
+<br>Phone : +91 9961538115<br>
+Email :  info@studybudy.in<br>
+<br>
+
+</h4>   
+
+<!DOCTYPE html>
+<html>
+<body>
+<font>Feel Free to contact us, Any query related to the portal are welcomed. 
+<br>Email us the query we will try to reply it as soon as possible.</font><br><br>
+
+<br>
+
+<strong>If you are student please enter your student number:</strong><br><br>
+
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+    
+<hr>
+<footer class="mainFooter">
+  <p>Copyright &copy <a href="https://www.facebook.com/">ABCDEF Systems</a> </p>
+  <center>
+  <a href="https://www.facebook.com/">Facebook</a>
+  <a href="https://www.twitter.com/">Twitter</a>
+  <a href="https://www.youtube.com/">Youtube</a>
+  </center>
+</footer>
+<script>
+function myFunction() {
+    var x, text;
+
+    // Get the value of the input field with id="numb"
+    x = document.getElementById("numb").value;
+
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 1 || x > 1000) {
+        text = "Input not valid";
+    } else {
+        text = "Registered successfully!";
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html> 
+<script type="text/javascript">
+  document.title="Contact";
+</script>
+</body>
+
+</html>
